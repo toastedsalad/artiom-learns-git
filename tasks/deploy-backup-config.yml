@@ -1,0 +1,9 @@
+---
+
+hosts: all
+vars:
+  setting1: this shit
+  setting2: that shit
+tasks:
+  - name: deploy shit
+    copy: myfile -> to remote
