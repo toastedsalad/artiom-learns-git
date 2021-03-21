@@ -1,0 +1,11 @@
+[all]
+dev-vm1
+dev-vm2
+dev-vm3
+
+[cassandra]
+dev-vm1
+dev-vm2
+
+[mssql]
+dev-vm3
