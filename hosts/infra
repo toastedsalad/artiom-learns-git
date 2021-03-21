@@ -1,7 +1,13 @@
+all
+vm1-bak0
+vm2-bak1
+vm1-bak2
+vm2-bak3
+
 group1
-vm1
-vm2
+vm1-bak0
+vm2-bak1
 
 group2
-vm1
-vm2
+vm1-bak2
+vm2-bak3
