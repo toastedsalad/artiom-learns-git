@@ -1,0 +1,8 @@
+# Deploy config
+
+- name: deploy config
+  file:
+      path: /etc/group
+      owner: root
+      group: root
+      mode: 0644

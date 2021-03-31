@@ -1,0 +1,6 @@
+---
+# Usage: ansible-playbook -i hostname, -e 'ROLE=<rolename>' playrole.yml
+- hosts: all
+  become: yes
+  roles:
+    - { role: '{{ROLE}}' }

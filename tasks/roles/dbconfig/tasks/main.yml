@@ -1,0 +1,9 @@
+# Deploy config
+
+- name: deploy config
+  template: 
+        src=templates/dbconfig-default.j2
+        dest=/home/blaze/db.cfg
+        owner=root
+        group=root
+        mode=0755
